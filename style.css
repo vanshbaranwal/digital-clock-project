@@ -3,7 +3,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
     background-color: black;
+    color: white;
+}
+body.light-theme{
+    background-color: white;
+    color: black;
 }
 
 
@@ -14,7 +22,7 @@
     align-items: center;
     flex-direction: column;
     padding: 100px;
-    margin-top: 10%;
+    margin-top: 8%;
     font-size: 35px;
 }
 
@@ -24,4 +32,38 @@
   text-align: center;
   box-shadow: 0px 0px 20px #90ee90aa;
   cursor: pointer;
+}
+body.light-theme .clock-box{
+    background-color: rgba(0, 0, 0, 0.05);
+    box-shadow: lightgreen;
+}
+
+#btn{
+    text-align: right;
+}
+button{
+    text-align: center;
+    text-decoration: none;
+    background: transparent;
+    border: none;
+    display: inline-block;
+    color: inherit;
+    font-size: 20px;
+    margin: 7px 15px;
+    cursor: pointer;
+}
+
+#darkimg,
+#lightimg{
+    width: 30px;
+    height: 30px;
+}
+#lightimg{
+    display: none;
+}
+body.light-theme #darkimg{
+    display: none;
+}
+body.light-theme #lightimg{
+    display: inline;
 }
