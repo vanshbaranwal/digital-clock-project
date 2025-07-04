@@ -1,0 +1,27 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+
+.clock-container{
+    color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+    margin-top: 10%;
+    font-size: 35px;
+}
+
+.clock-box {
+  padding: 30px 50px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0px 0px 20px #90ee90aa;
+  cursor: pointer;
+}
