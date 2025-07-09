@@ -28,6 +28,5 @@ function updateClock(){
     dateElement.textContent = `${dateString}`
 }
 
-
 setInterval(updateClock, 1000);
 updateClock();
